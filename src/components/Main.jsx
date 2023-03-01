@@ -5,7 +5,6 @@ const Main = () => {
   return (
     <div id="main">
       <Navbar />
-      React Boilerplate
     </div>
   );
 };
