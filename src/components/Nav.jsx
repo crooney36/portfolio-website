@@ -5,12 +5,12 @@ const Nav = () => (
     <div
       style={{
         padding: "20px",
-        background: "#192734",
+        background: "#255",
       }}
     >
       <Anchor
         direction="horizontal"
-        style={{ color: "#fff" }}
+        style={{ color: "fff" }}
         items={[
           {
             key: "Home",
@@ -49,16 +49,20 @@ const Nav = () => (
           textAlign: "center",
           background: "#192734",
         }}
-      />
+      >
+        <Home />
+      </div>
       <div
         id="About"
         style={{
           width: "100vw",
           height: "100vh",
           textAlign: "center",
-          background: "rgba(0,120,255,0.02)",
+          background: "#192734",
         }}
-      />
+      >
+        <About />
+      </div>
       <div
         id="Projects"
         style={{
@@ -67,7 +71,9 @@ const Nav = () => (
           textAlign: "center",
           background: "#FFFBE9",
         }}
-      />
+      >
+        <Projects />
+      </div>
       <div
         id="Experience"
         style={{
@@ -76,7 +82,9 @@ const Nav = () => (
           textAlign: "center",
           background: "#F4EAD5",
         }}
-      />
+      >
+        <Experience />
+      </div>
       <div
         id="Contact"
         style={{
@@ -85,14 +93,9 @@ const Nav = () => (
           textAlign: "center",
           background: "#DAE2B6",
         }}
-      />
-    </div>
-    <div>
-      <Home />
-      <About />
-      <Projects />
-      <Experience />
-      <Contact />
+      >
+        <Contact />
+      </div>
     </div>
   </>
 );

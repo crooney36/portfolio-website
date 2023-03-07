@@ -1,11 +1,11 @@
 import React from "react";
-import { Navbar, Nav } from "../components";
-import { Button, Space } from "antd";
+import { Nav, Footer } from "../components";
 
 const Main = () => {
   return (
     <div id="main">
       <Nav />
+      <Footer />
     </div>
   );
 };
