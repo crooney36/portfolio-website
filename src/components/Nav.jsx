@@ -5,12 +5,11 @@ const Nav = () => (
     <div
       style={{
         padding: "20px",
-        background: "#255",
+        background: "#192734",
       }}
     >
       <Anchor
         direction="horizontal"
-        style={{ color: "fff" }}
         items={[
           {
             key: "Home",
@@ -47,7 +46,7 @@ const Nav = () => (
           width: "100vw",
           height: "100vh",
           textAlign: "center",
-          background: "#192734",
+          background: "#5A5A5A",
         }}
       >
         <Home />

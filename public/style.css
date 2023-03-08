@@ -1,9 +1,20 @@
 body {
   margin: 0;
 }
-#navbar {
-  background-color: black;
-  display: flex;
-  align-items: center;
-  color: white;
+
+* {
+  box-sizing: border-box;
+  background-color: #192734;
+}
+
+#About {
+  background-color: #192734;
+  color: #fff;
+  text-align: center;
+}
+
+#Home {
+  background-color: #192734;
+  color: #fff;
+  text-align: center;
 }
